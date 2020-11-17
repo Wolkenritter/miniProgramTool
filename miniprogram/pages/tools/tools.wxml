@@ -1,0 +1,16 @@
+<view class="tools">
+  <view class="flex-box">
+    <view class="flex-item" wx:for="{{toolsList}}" wx:for-item="tool" wx:for-index="idx" wx:key="idx" bindtap="toPage(tool)">
+        <navigator url="{{tool.path}}">
+          <view class="img">
+            <cover-image src="{{tool.img}}"></cover-image>
+          </view>
+          <text class="text">{{tool.name}}</text>
+        </navigator>
+      </view>
+  </view>
+
+  <view>
+    <button size="mini" open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="primary">云函数登录</button>
+  </view>
+</view>

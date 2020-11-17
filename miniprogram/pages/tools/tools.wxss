@@ -1,0 +1,30 @@
+/* miniprogram/pages/tools.wxss */
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* background: #ffffff; */
+  padding: 10px 16px;
+}
+.flex-item {
+  width: 25%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 1%;
+}
+
+.img {
+  /* border: 1px solid #cccccc; */
+  border-radius: 2px;
+}
+
+.text {
+  text-align: center;
+  word-wrap: wrap;
+  font-size: 12px;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}

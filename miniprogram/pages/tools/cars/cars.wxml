@@ -1,0 +1,22 @@
+<!--miniprogram/pages/tools/cars.wxml-->
+<view class="cars">
+  <view class="search-area">
+    <view class="search-input">
+      <input type="text" bindinput="bindKeyInput" placeholder="搜索"></input>
+    </view>
+    <view class="search-btn-area">
+      <text class="search-btn">搜索</text>
+    </view>
+  </view>
+  <view wx:for="{{carList}}" wx:for-item="item" wx:for-index="_idx" wx:key="_idx" class="tools-box">
+    <text class="initial-text">{{item.initial}}</text>
+    <view  class="flex-box">
+      <view class="flex-item" wx:for="{{item.data}}" wx:for-item="i" wx:for-index="idx" wx:key="idx">
+        <view class="img">
+          <cover-image src="{{i.imgUrl}}"></cover-image>
+        </view>
+        <text class="text">{{i.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

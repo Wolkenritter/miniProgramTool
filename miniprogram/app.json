@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/tools/tools",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/tools/cars/cars",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "工具集",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/home-off.png",
+        "selectedIconPath": "images/tabbar/home-on.png",
+        "selectedColor": "#E64340"
+      },
+      {
+        "pagePath": "pages/tools/tools",
+        "text": "工具集",
+        "iconPath": "images/tabbar/ic_catefory_normal.png",
+        "selectedIconPath": "images/tabbar/ic_catefory_pressed.png",
+        "selectedColor": "#000"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabbar/my-off.png",
+        "selectedIconPath": "images/tabbar/my-on.png",
+        "selectedColor": "#E64340"
+      }
+    ]
+  }
+}
